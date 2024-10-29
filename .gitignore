@@ -15,6 +15,9 @@ volumes/unstructured/*
 volumes/pgvector/data/*
 volumes/pgvecto_rs/data/*
 
+data/
+uploaded_files.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

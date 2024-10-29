@@ -1,0 +1,13 @@
+[project]
+name = "rag-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.7",
+    "dify-client",
+]
+
+[tool.uv.sources]
+dify-client = { path = "external/dify/sdks/python-client" }
