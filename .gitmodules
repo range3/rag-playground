@@ -1,0 +1,3 @@
+[submodule "external/dify"]
+	path = external/dify
+	url = https://github.com/langgenius/dify.git
